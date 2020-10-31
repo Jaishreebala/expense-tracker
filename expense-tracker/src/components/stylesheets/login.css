@@ -1,0 +1,57 @@
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    min-height: calc(100vh - 94px);
+}
+.cols{
+    width: 50%;
+}
+.cols:last-child{
+    background-image: url('../assets/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cols:first-child{
+    width: 40%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    border: solid 1px green;
+    text-align: center;
+
+}
+.cols h1{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.greenButton{
+    background: #1BAB8E;
+border-radius: 25px;
+width: fit-content;
+padding: 0.5rem 1.5rem;
+margin: 10px;
+align-self: auto;
+color: #fff;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.green{
+    color: #1BAB8E;
+    cursor: pointer;
+}
+.googleLink{
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    width: 50%;
+}
+.noAccount{
+    padding: 10px;
+}
